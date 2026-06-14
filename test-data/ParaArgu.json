@@ -1,0 +1,20 @@
+{
+"username": "testassign101@gmail.com",
+"password": "Admin@12345678",
+"incorrectPassword" : "Admin@987654321",
+"productName": "ADIDAS ORIGINAL",
+"country" : "ind",
+"country1" : "India",
+"cardexpirydate" :  12,
+"cardexpirymonth" : 30,
+"cvv" : 2293,
+"firstName":  "test",
+"lastName" : "test",
+"email" : "testassign109@gmail.com",
+"phoneNumber" : 9876543210,
+"occupationValue" : "Student",
+"password1": "Admin@12345678",
+"password2": "Admin@12345678"
+
+
+}

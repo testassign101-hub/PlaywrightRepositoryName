@@ -1,0 +1,20 @@
+{
+  "name": "frameworkplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Report" : "npx playwright show-report",
+    "BasicCommand" : "npx playwright test",
+    "dashboard" : "npx playwright test dashboard.spec.js",
+    "login" : "npx playwright test login.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.2"
+  }
+}
