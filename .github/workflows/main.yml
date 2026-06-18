@@ -17,6 +17,6 @@ jobs:
           node-version: 24
 
       - name: Run Playwright Script
-        run: npm run login
+        run: npx playwright test -g "Valid Login" 
 
       
