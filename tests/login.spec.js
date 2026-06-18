@@ -4,6 +4,7 @@ const data = require('../test-data/ParaArgu.json')
 const { SignUpPage } = require('../pageObjects/SignUpPage')
 
 test ('Valid Login' , async ({page})=>{
+ console.log("Hello Valid Login")   
 await page.goto('https://rahulshettyacademy.com/client/#/auth/login')
 const loginPage = new LoginPage(page)
 
